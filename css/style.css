@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'Street';
-    src: url('./font/street.otf') format('truetype');
+    src: url('../font/street.otf') format('truetype');
 }
 body {
     font-family: 'Verdana', sans-serif;
-    background-image: url('img/fondo2.jpg');
+    background-image: url('../img/fondo2.jpg');
     background-attachment: fixed;
 }
 h1 {
@@ -34,7 +34,7 @@ td {
     background-color: black;
 }
 .fondo-imagen {
-    background-image: url('img/fondocabecera.jpg');
+    background-image: url('../img/fondocabecera.jpg');
     background-size: cover;
     background-position: center;
     opacity: 0.5;
@@ -100,7 +100,7 @@ textarea {
     background-color: darkred;
 }
 body {
-    background-image: url('img/fondo2.jpg');
+    background-image: url('../img/fondo2.jpg');
     background-size: cover;
     background-attachment: fixed;
 }
