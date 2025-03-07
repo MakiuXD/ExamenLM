@@ -2,20 +2,17 @@
     font-family: 'Street';
     src: url('Font/street.otf') format('truetype');
 }
-
 body {
     font-family: 'Verdana', sans-serif;
     background-image: url('img/fondo2.jpg');
     background-attachment: fixed;
 }
-
 h1 {
     font-family: 'Street', sans-serif;
     color: crimson;
     font-size: 46px;
     text-align: center;
 }
-
 table {
     width: 600px;
     height: 800px;
@@ -24,7 +21,6 @@ table {
     margin: 0 auto;
     background-color: black;
 }
-
 td {
     width: 40px;
     height: 45px;
@@ -36,4 +32,85 @@ td {
     color: darkorange;
     text-align: center;
     background-color: black;
+}
+.fondo-imagen {
+    background-image: url('img/fondocabecera.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+    text-align: center;
+}
+.texto-imagen {
+    font-family: 'Street', sans-serif;
+    color: whitesmoke;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 20px;
+}
+.formulario {
+    width: 600px;
+    height: 1200px;
+    border: 10px outset rgb(237, 175, 5);
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    margin: 20px auto;
+    font-size: 16px;
+    font-family: 'Verdana', sans-serif;
+}
+h2 {
+    font-family: 'Street', sans-serif;
+    color: crimson;
+    font-size: 28px;
+    text-align: center;
+}
+fieldset {
+    display: block;
+    min-inline-size: min-content;
+    margin-inline: 2px;
+    border-width: 2px;
+    border-style: groove;
+    border-color: threedface;
+    border-image: initial;
+    padding-block: 0.35em 0.625em;
+    padding-inline: 0.75em;
+}
+legend {
+    font-family: 'Street', sans-serif;
+    font-size: 14px;
+    color: rgb(237, 175, 5);
+}
+textarea {
+    width: 560px;
+}
+.boton {
+    border: 1px solid crimson;
+    background-color: crimson;
+    font-family: 'Street', sans-serif;
+    font-size: 18px;
+    color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    margin-left: 65px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.boton:hover {
+    background-color: darkred;
+}
+body {
+    background-image: url('img/fondo2.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+.form-group {
+    margin: 15px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+textarea {
+    height: 100px;
 }

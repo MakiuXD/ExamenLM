@@ -1,25 +1,20 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>StreetFighterUNIR</title>
-    <link rel="icon" href="img/arcade.png">
-    <link rel="stylesheet" href="style.css">
-    
+    <link rel="icon" href="./img/arcade.png">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-
     <h1>TO LIVE IS TO FIGHT TO FIGHT IS TO LIVE</h1>
-
     <table>
         <tr>
             <td colspan="4" class="fondo-imagen">
                 <div class="texto-imagen">STREET FIGHTER</div>
             </td>
         </tr>
-        
         <tr>
             <td>
                 <div class="nombre-personaje">Ken</div>
@@ -41,60 +36,121 @@
         <tr>
             <td>
                 <div class="nombre-personaje">Ryu</div>
-                <img src="img/Ryu.png" alt="Personaje 1">
+                <img src="./img/Ryu.png" alt="Personaje 1">
             </td>
             <td>
                 <div class="nombre-personaje">E. Honda</div>
-                <img src="img/EHonda.png" alt="Personaje 2">
+                <img src="./img/EHonda.png" alt="Personaje 2">
             </td>
             <td>
                 <div class="nombre-personaje">Blanka</div>
-                <img src="img/Blanka.png" alt="Personaje 3">
+                <img src="./img/Blanka.png" alt="Personaje 3">
             </td>
             <td>
                 <div class="nombre-personaje">Guile</div>
-                <img src="img/Guille.png" alt="Personaje 4">
+                <img src="./img/Guille.png" alt="Personaje 4">
             </td>
         </tr>
         <tr>
             <td>
                 <div class="nombre-personaje">T. Hawk</div>
-                <img src="img/THawk.png" alt="Personaje 1">
+                <img src="./img/THawk.png" alt="Personaje 1">
             </td>
             <td>
                 <div class="nombre-personaje">Fei Long</div>
-                <img src="img/Feilong.png" alt="Personaje 2">
+                <img src="./img/Feilong.png" alt="Personaje 2">
             </td>
             <td>
                 <div class="nombre-personaje">Dee Jay</div>
-                <img src="img/DeeJay.png" alt="Personaje 3">
+                <img src="./img/DeeJay.png" alt="Personaje 3">
             </td>
             <td>
                 <div class="nombre-personaje">Cammy</div>
-                <img src="img/Cammy.png" alt="Personaje 4">
+                <img src="./img/Cammy.png" alt="Personaje 4">
             </td>
         </tr>
         <tr>
             <td>
                 <div class="nombre-personaje">Balrog</div>
-                <img src="img/Balrog.png" alt="Personaje 1">
+                <img src="./img/Balrog.png" alt="Personaje 1">
             </td>
             <td>
                 <div class="nombre-personaje">Vega</div>
-                <img src="img/Vega.png" alt="Personaje 2">
+                <img src="./img/Vega.png" alt="Personaje 2">
             </td>
             <td>
                 <div class="nombre-personaje">Sagat</div>
-                <img src="img/Sagat.png" alt="Personaje 3">
+                <img src="./img/Sagat.png" alt="Personaje 3">
             </td>
             <td>
                 <div class="nombre-personaje">M. Bison</div>
-                <img src="img/MBison.png" alt="Personaje 4">
+                <img src="./img/MBison.png" alt="Personaje 4">
             </td>
         </tr>
     </table>
-
-    
-
+    <h2>Formulario de Inscripción para jugar a Street Fighter</h2>
+    <section class="formulario">
+        <form>
+            <fieldset>
+                <legend>Datos Personales</legend>
+                <div class="form-group">
+                    <label for="Name">Nombre:</label>
+                    <input type="text" name="Nombre" id="Name">
+                </div>
+                <div class="form-group">
+                    <label for="FName">Apellidos:</label>
+                    <input type="text" name="Apellidos" id="FName">
+                </div>
+                <div class="form-group">
+                    <label for="Street">Dirección Postal:</label>
+                    <input type="text" name="Street" id="Street" placeholder="Calle">
+                    <input type="text" name="Nro" id="Nro" placeholder="Nº">
+                    <input type="text" name="Piso" id="Piso" placeholder="Piso">
+                    <input type="text" name="CP" id="CP" placeholder="Código Postal">
+                    <input type="text" name="City" id="City" placeholder="Ciudad">
+                </div>
+                <div class="form-group">
+                    <label for="Nick">Nick:</label>
+                    <input type="text" name="Nick" id="Nick">
+                </div>
+                <div class="form-group">
+                    <label for="Email">Correo Electrónico:</label>
+                    <input type="email" name="Email" id="Email">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Sexo usuario</legend>
+                <div class="form-group">
+                    <label for="Hombre"><input type="radio" name="sexo" id="Hombre" value="Hombre"> Hombre</label>
+                    <label for="Mujer"><input type="radio" name="sexo" id="Mujer" value="Mujer"> Mujer</label>
+                    <label for="Unknow"><input type="radio" name="sexo" id="Unknow" value="Unknow"> Prefiero no decir</label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Fecha de Nacimiento</legend>
+                <div class="form-group">
+                    <label for="Birthdate">Fecha Nacimiento:</label>
+                    <input type="date" name="Birthdate" id="Birthdate">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Personajes</legend>
+                <div class="form-group">
+                    <label for="Select">Selecciona el personaje:</label>
+                    <input type="text" name="Choose" id="Select">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Comentarios</legend>
+                <div class="form-group">
+                    <textarea name="comentarios" id="Commits"></textarea>
+                </div>
+            </fieldset>
+            <div class="form-group">
+                <input type="submit" value="Enviar" class="boton">
+                <input type="reset" value="Borrar" class="boton">
+            </div>
+        </form>
+    </section>
 </body>
 </html>
